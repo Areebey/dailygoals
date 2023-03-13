@@ -48,10 +48,13 @@ input,textarea,button{
 }
 
 button{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.63);
     color: white;
     border: none;
     cursor: pointer;
+}
+button:hover{
+    background-color: black;
 }
 
 .task{
